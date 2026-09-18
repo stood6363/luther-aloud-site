@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luther Aloud — Public-domain Luther, read aloud</title>
+<meta name="description" content="Martin Luther's works narrated as YouTube videos — one work per episode, in the order he wrote them.">
+<meta name="theme-color" content="#3E1014">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Luther Aloud">
+<meta property="og:description" content="Martin Luther's works, narrated and published as YouTube videos — one work per episode, in the order he wrote them.">
+<meta property="og:url" content="https://lutheraloud.org/">
+
+<link rel="icon" href="assets/rose.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" role="banner">
+  <nav class="site-nav" aria-label="Primary">
+    <a href="#top" class="brand-mark">
+      <img src="assets/rose.svg" alt="" width="28" height="28" aria-hidden="true">
+      <span>Luther Aloud</span>
+    </a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#roadmap">Episodes</a></li>
+      <li><a href="https://youtube.com/@LutherAloud" rel="noopener">YouTube ↗</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section id="top" class="hero">
+    <div class="hero-inner">
+      <img class="hero-rose" src="assets/rose.svg" alt="" aria-hidden="true">
+      <h1 class="wordmark">Luther Aloud</h1>
+      <p class="tagline">Martin Luther, read aloud.</p>
+      <p class="lede">
+        Luther's own words, narrated as YouTube videos —
+        one work per episode, in the order he wrote them.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#about">
+          Watch the About video
+        </a>
+        <a class="btn btn-ghost" href="https://youtube.com/@LutherAloud" rel="noopener">
+          Visit the channel
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="section-inner">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p id="about-copy-body">
+            Loading…
+          </p>
+        </div>
+        <aside class="about-video">
+          <div class="video-frame vertical" id="about-video-frame">
+            <video controls preload="metadata" playsinline
+                   poster="assets/about-poster.jpg">
+              <source src="assets/about.mp4" type="video/mp4">
+              Your browser can't play HTML5 video.
+              <a href="assets/about.mp4">Download the video</a>.
+            </video>
+          </div>
+          <p class="video-caption">
+            A short introduction to the project — what's here, and where it's going.
+          </p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="roadmap" class="section section-alt">
+    <div class="section-inner">
+      <h2>Episodes &amp; Roadmap</h2>
+
+      <div class="roadmap-totals" id="roadmap-totals" aria-live="polite"></div>
+
+      <div id="roadmap-list"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <p class="footer-fine">
+    &copy; <span id="footer-year">2026</span> Luther Aloud
+  </p>
+</footer>
+
+<script src="js/site.js" defer></script>
+</body>
+</html>

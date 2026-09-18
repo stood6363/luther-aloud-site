@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "channel_url": "https://youtube.com/@LutherAloud",
+    "about_video_url": "https://youtu.be/yvK0aJxfESk",
+    "about_video_description": "Luther Aloud is a YouTube channel that narrates Martin Luther's works — one work per episode, in the order he wrote them, from the Ninety-Five Theses of 1517 through the sermons, commentaries, and letters of his last years. The video is a still cover with the narration playing over it; the audio is the point, the picture is a frame.",
+    "last_updated": "2026-09-18",
+    "totals_note": "The Holman treatises, the Lenker sermons and commentaries, and the standalone classics — treated as one corpus, in the order they were written."
+  },
+  "phases": [
+    {
+      "id": "phase-1",
+      "name": "Phase 1 — The Holman Edition",
+      "years": "1517–1546",
+      "source": "Works of Martin Luther, with Introductions and Notes (A. J. Holman Co., 6 vols, 1915–1932). Digitized on Project Gutenberg and the Internet Archive.",
+      "note": "Ordered chronologically by composition, starting at the Ninety-Five Theses.",
+      "groups": [
+        {
+          "id": "holman-i-ii",
+          "name": "Holman Vols. I–II — early treatises (1517–1522)",
+          "entries": [
+            { "num": 1, "title": "The Ninety-Five Theses", "subtitle": "Disputation on the Power and Efficacy of Indulgences", "year": 1517, "vol": "I", "duration": "27 min", "status": "live", "youtube_url": "https://youtu.be/n4L-H_qL9gg" },
+            { "num": 2, "title": "Luther's Prefaces to His Works", "year": "1539/1545", "vol": "I", "estimated_length": "~30 min", "status": "coming-soon" },
+            { "num": 3, "title": "Treatise on Baptism", "year": 1519, "vol": "I", "estimated_length": "~30 min", "status": "coming-soon" },
+            { "num": 4, "title": "A Treatise Concerning the Blessed Sacrament and Concerning the Brotherhoods", "year": 1519, "vol": "II", "estimated_length": "~45 min", "status": "coming-soon" },
+            { "num": 5, "title": "Discussion of Confession", "year": 1520, "vol": "I", "estimated_length": "~30 min", "status": "coming-soon" },
+            { "num": 6, "title": "The Fourteen of Consolation", "year": 1520, "vol": "I", "estimated_length": "~1.5 hr", "status": "coming-soon" },
+            { "num": 7, "title": "Treatise on Good Works", "year": 1520, "vol": "I", "estimated_length": "~2.5 hr", "status": "coming-soon" },
+            { "num": 8, "title": "Treatise on the New Testament (On the Holy Mass)", "year": 1520, "vol": "I", "estimated_length": "~1 hr", "status": "coming-soon" },
+            { "num": 9, "title": "The Papacy at Rome", "year": 1520, "vol": "I", "estimated_length": "~1.5 hr", "status": "coming-soon" },
+            { "num": 10, "title": "A Treatise Concerning the Ban", "year": 1520, "vol": "II", "estimated_length": "~30 min", "status": "coming-soon" },
+            { "num": 11, "title": "An Open Letter to the Christian Nobility of the German Nation", "year": 1520, "vol": "II", "estimated_length": "~2.5 hr", "status": "coming-soon" },
+            { "num": 12, "title": "The Babylonian Captivity of the Church", "year": 1520, "vol": "II", "estimated_length": "~2.5 hr", "status": "coming-soon" },
+            { "num": 13, "title": "A Treatise on Christian Liberty (The Freedom of a Christian)", "year": 1520, "vol": "II", "estimated_length": "~1 hr", "status": "coming-soon" },
+            { "num": 14, "title": "A Brief Explanation of the Ten Commandments, the Creed, and the Lord's Prayer", "year": 1520, "vol": "II", "estimated_length": "~1.5 hr", "status": "coming-soon" },
+            { "num": 15, "title": "Sermons (as included in Vol. II)", "year": "1520–21", "vol": "II", "estimated_length": "~1 hr", "status": "coming-soon" },
+            { "num": 16, "title": "The Doctrines of Men (On Avoiding the Doctrines of Men)", "year": 1522, "vol": "II", "estimated_length": "~30 min", "status": "coming-soon" }
+          ]
+        },
+        {
+          "id": "holman-iii-vi",
+          "name": "Holman Vols. III–VI — later treatises & letters (1520s–1540s)",
+          "note": "Placeholder groupings. Each volume is expanded into its per-work episode list at build time.",
+          "entries": [
+            { "num": 17, "title": "Works in Volume III — treatises & letters", "year": "1520s", "vol": "III", "estimated_length": "~4 hr", "estimated_episodes": 5, "status": "coming-soon" },
+            { "num": 18, "title": "Works in Volume IV — treatises & letters", "year": "1520s", "vol": "IV", "estimated_length": "~4 hr", "estimated_episodes": 5, "status": "coming-soon" },
+            { "num": 19, "title": "Works in Volume V — treatises & letters", "year": "1520s–30s", "vol": "V", "estimated_length": "~4 hr", "estimated_episodes": 5, "status": "coming-soon" },
+            { "num": 20, "title": "Works in Volume VI — treatises & letters", "year": "1520s–40s", "vol": "VI", "estimated_length": "~4 hr", "estimated_episodes": 5, "status": "coming-soon" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-2",
+      "name": "Phase 2 — The Lenker Standard Edition",
+      "years": "sermons & commentaries, 1903–1909 edition",
+      "source": "The Standard Edition of Luther's Works, ed. John Nicholas Lenker (1903–1909). Digitized on the Internet Archive; index links via Reformed Books Online.",
+      "note": "Sermon collections are one episode per sermon — the natural unit — so the episode count grows large. Individual titles and dates are TBD.",
+      "groups": [
+        {
+          "id": "church-postils",
+          "name": "Church Postils — Gospel sermons for the church year",
+          "entries": [
+            { "num": 21, "title": "Church Postils — Advent to Epiphany (Vol. 1)", "year": "sermons 1520s–1540s", "estimated_length": "~15 hr", "estimated_episodes": 35, "status": "coming-soon" },
+            { "num": 22, "title": "Church Postils — Epiphany, Lent & Easter (Vol. 2)", "year": "sermons 1520s–1540s", "estimated_length": "~15 hr", "estimated_episodes": 35, "status": "coming-soon" },
+            { "num": 23, "title": "Church Postils — Pentecost & Missionary Sermons (Vols. 3 & 5)", "year": "sermons 1520s–1540s", "estimated_length": "~20 hr", "estimated_episodes": 45, "status": "coming-soon" },
+            { "num": 24, "title": "Church Postils — After Trinity (Vol. 4)", "year": "sermons 1520s–1540s", "estimated_length": "~15 hr", "estimated_episodes": 35, "status": "coming-soon" }
+          ]
+        },
+        {
+          "id": "epistle-sermons",
+          "name": "Epistle Sermons — for the church year",
+          "entries": [
+            { "num": 25, "title": "Epistle Sermons — Advent & Christmas", "year": "sermons 1520s–1540s", "estimated_length": "~12 hr", "estimated_episodes": 30, "status": "coming-soon" },
+            { "num": 26, "title": "Epistle Sermons — Epiphany, Easter & Pentecost", "year": "sermons 1520s–1540s", "estimated_length": "~12 hr", "estimated_episodes": 30, "status": "coming-soon" },
+            { "num": 27, "title": "Epistle Sermons — Trinity to Advent", "year": "sermons 1520s–1540s", "estimated_length": "~12 hr", "estimated_episodes": 30, "status": "coming-soon" }
+          ]
+        },
+        {
+          "id": "lenker-commentaries",
+          "name": "Lenker Commentaries",
+          "entries": [
+            { "num": 28, "title": "Commentary on Psalms 1–22", "year": "lectures 1519–1521", "estimated_length": "~10 hr", "estimated_episodes": 22, "status": "coming-soon" },
+            { "num": 29, "title": "Commentary on Genesis (chapters 1–9)", "year": "lectures 1535–1545", "estimated_length": "~15 hr", "estimated_episodes": 15, "status": "coming-soon" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-3",
+      "name": "Phase 3 — Standalone classics",
+      "years": "major works with their own historic English translations",
+      "source": "Historic English translations not part of the Holman or Lenker editions.",
+      "note": "Several overlap thematically with Phase 1 but use distinct translations. Christian Liberty appears in both Phase 1 (Holman) and Phase 3 (Grignon); the Grignon reading is optional.",
+      "groups": [
+        {
+          "id": "standalone-classics",
+          "name": "Standalone classics",
+          "entries": [
+            { "num": 30, "title": "The Bondage of the Will", "year": 1525, "estimated_length": "~9 hr", "estimated_episodes": 11, "status": "coming-soon" },
+            { "num": 31, "title": "A Commentary on St. Paul's Epistle to the Galatians", "year": 1535, "estimated_length": "~12 hr", "estimated_episodes": 15, "status": "coming-soon" },
+            { "num": 32, "title": "The Table Talk of Martin Luther", "year": "1566 (compiled)", "estimated_length": "~10 hr", "estimated_episodes": 13, "status": "coming-soon" },
+            { "num": 33, "title": "A Manual of the Book of Psalms", "year": "—", "estimated_length": "~4 hr", "estimated_episodes": 5, "status": "coming-soon" },
+            { "num": 34, "title": "The Small Catechism", "year": 1529, "estimated_length": "~20 min", "estimated_episodes": 1, "status": "coming-soon" },
+            { "num": 35, "title": "The Large Catechism", "year": 1529, "estimated_length": "~2.5 hr", "estimated_episodes": 3, "status": "coming-soon" },
+            { "num": 36, "title": "Concerning Christian Liberty (alternate translation)", "year": 1520, "estimated_length": "~1 hr", "estimated_episodes": 1, "status": "coming-soon", "note": "Optional alternate reading. The Holman translation is narrated in Phase 1." },
+            { "num": 37, "title": "Selected Letters of Martin Luther", "year": "1507–1546", "estimated_length": "~8 hr", "estimated_episodes": 10, "status": "coming-soon" }
+          ]
+        }
+      ]
+    }
+  ]
+}
