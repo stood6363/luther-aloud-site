@@ -195,15 +195,33 @@
     var btn = document.getElementById("back-to-top");
     if (!btn) return;
     var threshold = 400;
+
+    // Purely scroll-position driven: visible when scrolled past threshold,
+    // hidden otherwise. rAF-throttled so the class flips live during a
+    // smooth-scroll animation, not just when scroll events settle.
+    var ticking = false;
     var update = function () {
+      ticking = false;
       if (window.pageYOffset > threshold) btn.classList.add("visible");
       else btn.classList.remove("visible");
     };
-    window.addEventListener("scroll", update, { passive: true });
+    var onScroll = function () {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(update);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+
     btn.addEventListener("click", function () {
       var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+      // Drop focus so :focus-visible / mouse-focus doesn't leave the
+      // active colour stuck after the click, and hide immediately —
+      // the scroll listener will re-show it if the user scrolls down again.
+      btn.blur();
+      btn.classList.remove("visible");
     });
+
     update();
   }
 
