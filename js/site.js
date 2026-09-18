@@ -191,8 +191,25 @@
     if (y) y.textContent = String(new Date().getFullYear());
   }
 
+  function initBackToTop() {
+    var btn = document.getElementById("back-to-top");
+    if (!btn) return;
+    var threshold = 400;
+    var update = function () {
+      if (window.pageYOffset > threshold) btn.classList.add("visible");
+      else btn.classList.remove("visible");
+    };
+    window.addEventListener("scroll", update, { passive: true });
+    btn.addEventListener("click", function () {
+      var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    });
+    update();
+  }
+
   function boot() {
     stampYear();
+    initBackToTop();
     fetch(DATA_URL, { cache: "no-cache" })
       .then(function (r) {
         if (!r.ok) throw new Error("Failed to load episodes.json (HTTP " + r.status + ")");
