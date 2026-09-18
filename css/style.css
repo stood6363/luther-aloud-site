@@ -134,9 +134,10 @@ h3 { font-size: 1.15rem; line-height: 1.25; letter-spacing: 0.02em; }
 }
 .lede {
   color: var(--ink-soft);
-  font-size: clamp(1.15rem, 1.8vw, 1.35rem);
+  font-size: clamp(1.35rem, 2.4vw, 1.7rem);
+  line-height: 1.5;
   margin: 0 auto 2rem;
-  max-width: 680px;
+  max-width: 720px;
 }
 .hero-actions {
   display: flex; flex-wrap: wrap; gap: 0.9rem; justify-content: center;
@@ -202,7 +203,11 @@ h3 { font-size: 1.15rem; line-height: 1.25; letter-spacing: 0.02em; }
   gap: 2.5rem;
   align-items: start;
 }
-.about-copy p { color: var(--ink-soft); }
+.about-copy p {
+  color: var(--ink-soft);
+  font-size: clamp(1.25rem, 1.9vw, 1.5rem);
+  line-height: 1.55;
+}
 .pillars {
   list-style: none; padding: 0; margin: 1.6rem 0 0;
   display: grid; gap: 0.9rem;
